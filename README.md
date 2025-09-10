@@ -82,7 +82,8 @@ Once the data was clean and structured, I connected it to Power BI. Here’s whe
 - Seasonal or monthly booking and cancellation behavior.
 
 ### Attachment
-
+- <a href="https://github.com/PritamSaha234/Uber-Booking-Cancellation-Project/blob/main/uberBooking.pbix">Dashboard</a>
+- <a href="https://github.com/PritamSaha234/Uber-Booking-Cancellation-Project/blob/main/uberBooking.pdf">Dashboard (PDF)</a>
 
 I designed the dashboard with a focus on clarity and storytelling so that anyone could quickly understand what’s happening with Uber bookings and cancellations in Bangalore.
 
