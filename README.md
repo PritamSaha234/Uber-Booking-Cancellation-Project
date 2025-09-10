@@ -1,6 +1,6 @@
-# Uber-Booking-Cancellation-Project (Interactive Dashboard creation using Power BI and Analysing the Data using SQL)
+# Uber-Booking-Cancellation-Project (Interactive Dashboard creation using Power BI and analyzing the Data using SQL)
 ## Project Objective
-Uber India wants to create booking and cancellation report From 1st July 2025 to 30th July 2025 for the Bangalore location. So that the stakeholder of Uber India can understand their customers' and drivers' behavior to grow bookings and optimize cancellations in upcoming months.
+Uber India wants to create a booking and cancellation report for the Bangalore location from July 1, 2025, to July 30, 2025. So that Uber India's stakeholders can understand their customers' and drivers' behavior to grow bookings and optimize cancellations in the upcoming months.
 
 ## Dataset used
 - <a href="https://github.com/PritamSaha234/Uber-Booking-Cancellation-Project/blob/main/Bookings.csv">Dataset</a>
@@ -64,7 +64,7 @@ To simplify analysis and improve reusability, I built SQL views for different sc
 - These insights can help improve decision-making, enhance customer experience, and optimize driver operations.
 
 ## Process for Power BI
-The project was carried out in two main stages – data preparation with SQL and visualization with Power BI.
+The project was carried out in two main stages: data preparation with SQL and visualization with Power BI.
 
 ### Setting Up the Data
 - I started by creating a dedicated database called 'uber' and loaded the 'bookings' data into it.
@@ -104,3 +104,15 @@ From the analysis of Uber bookings and cancellations, here are the main findings
 - Digital payments rising – Many users preferred paying through UPI, showing a clear move towards cashless rides.
 - Revenue insights – Most of the booking value came from successful rides, making it important to reduce cancellations and incomplete trips.
 - Incomplete rides reveal issues – Recording the reasons for incomplete trips gave useful insights into where the service can be improved.
+
+## Conclusion
+Cancellations, customer loyalty, vehicle choice, payments, and ratings are the key factors shaping Uber’s booking trends. Most revenue comes from successful rides, so reducing cancellations is very important.
+
+## Recommendations
+- Lower cancellations with better support and incentives.
+- Reward loyal customers with offers.
+- Improve service quality, especially for premium rides.
+- Promote digital payments like UPI.
+- Fix issues behind incomplete rides.
+
+Acting on these points can improve customer experience, reduce losses, and drive growth.
