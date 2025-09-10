@@ -1,7 +1,7 @@
 CREATE DATABASE uber;
 USE uber;
-SELECT count(Booking_ID) FROM bookings;
-SELECT * FROM bookings;
+/*SELECT count(Booking_ID) FROM bookings;
+SELECT * FROM bookings;*/
 
 
 # 1. Retrieve all successful bookings:
