@@ -31,11 +31,14 @@ Uber India wants to create booking and cancellation report From 1st July 2025 to
 
 ## Process for SQL
 To analyze Uber booking and cancellation trends, I followed a structured SQL-driven approach:
+
 ### Database Setup
 - Created a database 'uber' and imported the 'bookings' table containing ride details such as customer info, vehicle type, booking status, payments, and ratings.
+
 ### Data Exploration
 - Queried the dataset to get an overview (total bookings, successful rides, cancellations).
 - Used simple SELECT queries to validate and understand the raw data.
+
 ### View Creation for Insights
 To simplify analysis and improve reusability, I built SQL views for different scenarios:
 - Successful Bookings – Filtered all rides that were completed successfully.
@@ -48,11 +51,44 @@ To simplify analysis and improve reusability, I built SQL views for different sc
 - Average Customer Ratings per Vehicle Type – Measured customer satisfaction trends.
 - Total Value of Successful Rides – Summed up the revenue from completed rides.
 - Incomplete Rides with Reasons – Captured why some rides were left incomplete.
+
 ### Attachment
 - <a href="https://github.com/PritamSaha234/Uber-Booking-Cancellation-Project/blob/main/uberBooking.sql">SQL File</a>
+
 ### Insight Extraction
 - Each view allowed targeted exploration (e.g. cancellations, payments, ratings).
 - This approach made it easier to integrate with Power BI dashboards for visualization and storytelling.
+
 ### Outcome
 - Built a clear picture of cancellations, driver behavior, customer behavior, vehicle performance, and payment preferences.
 - These insights can help improve decision-making, enhance customer experience, and optimize driver operations.
+
+## Process for Power BI
+The project was carried out in two main stages – data preparation with SQL and visualization with Power BI.
+
+### Setting Up the Data
+- I started by creating a dedicated database called 'uber' and loaded the 'bookings' data into it.
+- This raw data included details like booking IDs, customer IDs, vehicle type, payment method, ride status, ratings, and booking value.
+- Before jumping into analysis, I ran some basic queries to validate the data and understand its structure.
+
+### Structuring Insights with SQL
+To avoid writing long queries again and again, I built SQL views for different business questions. Each view gave me a focused dataset.
+
+### Visualizing with Power BI
+Once the data was clean and structured, I connected it to Power BI. Here’s where the numbers started telling stories:
+- Cancellation trends by customers vs. drivers.
+- Rating patterns across different vehicle types.
+- Revenue contribution from successful rides.
+- Seasonal or monthly booking and cancellation behavior.
+
+### Attachment
+
+
+I designed the dashboard with a focus on clarity and storytelling so that anyone could quickly understand what’s happening with Uber bookings and cancellations in Bangalore.
+
+### Final Outcome
+By combining SQL and Power BI, the process flowed naturally:
+- SQL handled the heavy lifting of cleaning and structuring.
+- Power BI brought the data to life with visuals and trends.
+
+The result is a project that doesn’t just crunch numbers but also highlights where cancellations happen most, who the top customers are, and how ratings and payments shape the overall booking experience.
