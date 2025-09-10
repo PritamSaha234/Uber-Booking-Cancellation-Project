@@ -93,3 +93,14 @@ By combining SQL and Power BI, the process flowed naturally:
 - Power BI brought the data to life with visuals and trends.
 
 The result is a project that doesn’t just crunch numbers but also highlights where cancellations happen most, who the top customers are, and how ratings and payments shape the overall booking experience.
+
+## Project Insights
+From the analysis of Uber bookings and cancellations, here are the main findings:
+
+- Cancellations are high – Many rides were canceled, mostly by customers. Driver cancellations also happened, mainly due to personal or car-related issues.
+- Top riders matter – A small group of customers booked far more rides than others, showing that loyal users contribute strongly to overall bookings.
+- Vehicle type patterns – Short trips were often taken in Autos and Bikes, while longer trips were done with Prime Sedans and SUVs.
+- Ratings vary – For Prime Sedan, the gap between the highest and lowest driver ratings was big, showing inconsistency in service. Average customer ratings also changed depending on the vehicle type.
+- Digital payments rising – Many users preferred paying through UPI, showing a clear move towards cashless rides.
+- Revenue insights – Most of the booking value came from successful rides, making it important to reduce cancellations and incomplete trips.
+- Incomplete rides reveal issues – Recording the reasons for incomplete trips gave useful insights into where the service can be improved.
